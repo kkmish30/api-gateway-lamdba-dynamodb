@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "terrademokk" # change to name of your bucket
-    region = "us-west-1"                   # change to your region
+    region = "us-west-2"                   # change to your region
     key    = "terraform.tfstate"
   }
 }
